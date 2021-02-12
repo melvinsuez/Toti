@@ -1,160 +1,366 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
 
-header {
-    width: 1200px;
-    height: 100px;
-    background-color: rgb(59, 28, 3);
-    padding-left: 50px;
-    box-sizing: border-box;
+@media screen and (max-width: 500px) {
+html {
+    width: 375px;
+    border: solid 1px #707070;
 }
 
-section {
-    width: 1200px;
+.contenedor{
+    position: absolute;
 }
 
-.flex-contenedor {
+#seccion1 {
+    width: 375px;
+    height: 60px;
+    background-color: blue;
+    background-color: rgba (0, 0, 0, 100%);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    top: opx;
 }
 
-#titulo {
-    color: white;
-    font-size: 1.5rem;
+#seccion1>div {
+    width: 50%;
+    height: 100%;
 }
+#seccion1>div>p {
+    position: absolute;
+    left: 36px;
+    top: 16px;
+    font-family: Segoe UI;
+    font-size: 20px;
+    text-align: left;
+    
+    color: rgba(255, 255, 255, 100%);
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+
+}
+
+#menu>div {
+    position: absolute;
+    width: 27px;
+    height: 18px;
+    top: 21px;
+    left: 311px;
+}
+
+hr{
+    margin-top: 5px;
+    border-style: double;
+    color: rgba(255, 255, 255, 100%);
+}
+
 nav {
-    width: 400px ;
-    margin-right: 50px;
+    display: none;
 }
 
-.btn {
+/* ----------------fin  seccion 1 ---------------*/
+
+/* ---------------Inicio seccion 2---------------*/
+
+#seccion2 {
+    position: absolute;
+    top:60px;
+    width: 375px;
+    height: 134px;
+}
+
+#mobile {
+    display: block;
+}
+
+#desktop {
+    display: none;
+}
+
+/* ----------------fin  seccion 2 ---------------*/
+
+/* ---------------Inicio seccion 3---------------*/
+
+#linea1 {
+    top: 228px;
+    left: 36px;
+    width: 302px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+articule {
+    left: 10px;
+}
+
+#linea2 {
+    top: 465px;
+    left: 36px;
+    width: 302px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+articule>h2 {
+    width: 146px;
+    height: 30px;
+    margin-top: 8px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+}
+
+articule>p {
+    width: 146px;
+    height: 30px;
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: left;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+}
+
+/* ----------------fin seccion 3 ---------------*/
+
+/* ---------------Inicio seccion 4---------------*/
+
+#seccion4 {
+    position: absolute;
+    top:703px;
+    width: 375px;
+    height: 1121px;
+    background-color: #37201A;
+}
+
+#seccion4>section {
+    position: absolute;
+    left: 36px;
+}
+
+.seccion4-A>div {
+    display: inset-block;
+}
+
+.seccion4-A>div>h2 {
+    position: relative;
+    width: 259;
+    height: 30px;
+    margin-top: 31px;
+    color: #C27159;
+    margin-bottom: 8px;
+
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: left;
+    color: #C27159;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+}
+
+.seccion4-A img {
+    position: relative;
     display: inline-block;
-    text-align: center;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    color: #fff;
-    box-sizing: border-box;
-
-}
-
-.btn:hover{
-    text-align: center;
     width: 70px;
-    height: 40px;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    height: 70px;
+    margin-top: 13px;
 }
 
-.content {
-	width:300px;
-    margin:50px 0 50px;
-    padding: 2%;
-	height:auto;
-	text-align:center;
-    box-sizing: border-box;
-}
+.seccion4-A p {
+    position: relative;
+    display: inline-block;
+    width: 223.5px;
+    height: 54px;
+    margin-left: 10px;
+    vertical-align:50%;
+    margin-top: 13px;
 
-.content>h2 {
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 13px;
     text-align: left;
+    color: #7A503E;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+
 }
 
-.content>p {
+
+.seccion4-B>div {
+    display: inset-block;
+}
+
+.seccion4-B>div>h2 {
+    position: relative;
+    width: 302;
+    height: 30px;
+    margin-top: 33.9px;
+    color: #C27159;
+    margin-bottom: 8px;
+
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 21px;
     text-align: left;
+    color: #C27159;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
 }
 
-.nivel3 {
-    box-sizing: border-box;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    color: rgb(241, 230, 207);
-    background-color: #3f1c04;
-    font-size: 12px;
+.seccion4-B img {
+    position: relative;
+    display: inline-block;
+    width: 302px;
+    height: 92px;
+    margin-top: 13px;
+}
+
+.seccion4-B p {
+    position: relative;
+    display: inline-block;
+    width: 302px;
+    height: 228px;
+    margin-left: 10px;
+    vertical-align:50%;
+    margin-top: 13px;
+
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: left;
+    color: #7A503E;
+
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+
+}
+
+/* ----------------fin seccion 4 ---------------*/
+
+/* ---------------Inicio seccion 5---------------*/
+
+#seccion5 {
+    position: absolute;
+    top:1824px;
+    width: 375px;
+    height: 534px;
+    background-color: #251611;
+}
+
+#seccion5>section div {
+    width: 302px;
+    margin-left: 36px;
+
+}
+
+#seccion5>section>div>h2 {
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: left;
+    color: #7A503E;
+    margin-top: 33px;
+    height: 30px;
+
+
+/* font-size: regular; */
+/* font-size: regular; */
+/* font-size: regular; */
+/* font-size: regular; */
+}
+
+#seccion5>section>div p {
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 8px;
+    text-align: left;
+    color: #7A503E;
+    margin-top: 10px;
     
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
+    /* font-size: regular; */
 }
 
-.seccion1 {
-    width: 300px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
+#seccion3-A>p {
+    height: 51px;
 }
 
-.seccion1>div>h2 {
-    box-sizing: border-box;
-    margin-top: 30px;
+#seccion5>section>div>p>span {
+    color: #C27159;
 }
 
-.seccion1>div>p {
-    margin-left: 20px;
-    padding-right: 20px;
+#seccion5>section>div>p>span>span {
+    text-decoration: underline;
+    height: 51px;
 }
 
-.seccion2 {
-    width: 600px;
-    height: 350px;
-    margin-top: 2.5%;
-    display: flex;
-    flex-direction: column;
-}
-
-.seccion2>div>p {
-    margin-top: 25px;
-    margin-right: 55px;
-}
-
-.contenido{
-    margin-top: 3.5%;
-}
-
-.seccion3 {
-    width: 1200px;
-    height: 400px;
-    background-color: #201107;
-    color: rgb(241, 230, 207);
-    box-sizing: border-box;
-    display: flex;
-    justify-content:end;
-    font-size: 14px;
-
-
-}
-
-.seccion3-A {
-    width: 66%;
-    padding: 0 30px 0 30px;
-    box-sizing: border-box;
-    align-self: center;
-    
-}
-
-.seccion3-A span{
+div.seccion3-B>p {
+    height: 11px;
     text-decoration: underline;
 }
 
-.seccion3-B {
-    width: 33%;
-    padding: 0 50px 0 50px;
-    box-sizing: border-box;
-    align-self: center;
-}
 
-.seccion3-B>p{
-    text-decoration: underline;
-}
+/* ----------------fin seccion 5 ---------------*/
+
+/* ---------------Inicio fotter---------------*/
 
 fotter {
-    width: 1200px;
-    height: 80px;
-    background-color: #0e0703;
-    font-size: 20px;
-    color: antiquewhite;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top:2358px;
+    width: 375px;
+    height: 41px;
+    background-color: #180E0C;
+    text-align: center;
 }
 
+fotter p {
+    display: inline-block;
+    margin: opx auto;
+    font-family: Segoe UI;
+    font-weight: 100;
+    font-size: 8px;
+    text-align: left;
+    color: #7A503E;
+    height: 54px;
+    margin-top: 10px;
+    width: 154px;
+
+
+/* font-size: regular; */
+/* font-size: regular; */
+/* font-size: regular; */
+/* font-size: regular; */
+
+}
+
+
+}
