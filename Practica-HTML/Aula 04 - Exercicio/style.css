@@ -1,0 +1,64 @@
+html {
+    width: 883px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-weight: bold;    
+    color:#FFB300; 
+    Line-Height: 79px;
+    font-size: 89px;
+}
+
+h2 {
+    font-weight: bold;    
+    color:#FFB300; 
+    font-size: 34px;
+}
+
+#chef {
+    font-weight: bold;    
+    color:#000000; 
+    font-size: 21px;
+    text-align: right;
+}
+
+.texto {
+    
+    font-size: 21px;
+    font-weight:200;    
+    Line-Height: 1.76;
+    color:black; 
+}
+
+hr {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+spam {
+    font-weight: bold;
+}
+
+li {
+    line-height: 21px*1.61;
+}
+
+img {
+    width: 883px;
+    height: 374px;
+}
+
+iframe {
+    width: 883px;
+    height: 479px;
+}
+
+a {
+    font-size: 21px;
+    font-weight:bold;    
+    color:black; 
+}
