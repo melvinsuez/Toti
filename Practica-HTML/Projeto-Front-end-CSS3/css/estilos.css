@@ -34,10 +34,11 @@
     font-size: 0.7rem; 
 }
 
-.botonF1{
-    right:0;
-    bottom:0.5rem;
+.botontop{
+    right:0.1rem;
+    bottom:0.2rem;
     position:fixed;
+    font-size: 1.8rem;
 }
 
 .fab {
@@ -48,4 +49,9 @@
 .rrss .fab {
     color:rgb(240, 239, 239);
     font-size: 4rem;
+}
+
+.fas {
+        color:rgb(56, 53, 53);
+    font-size: 2rem;  
 }
