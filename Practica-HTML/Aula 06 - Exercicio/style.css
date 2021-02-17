@@ -210,7 +210,7 @@ text-decoration: underline;
 }
 
 #seccion5 p {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     margin-left: 20px;
     margin-top: 30px;
 }

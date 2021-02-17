@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+    .show-md{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide-md{
+        display: none;
+    }
+    .ajustar{
+        margin-top: 6rem;
+    }
+}
+
+.hide-borde {
+    border: none;
+}
+
+.borde {
+    border-left: 5px solid rgb(204, 204, 231);
+    border-radius: 1%;
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-9 {
+    font-size: 0.8rem;    
+}
+
+.fs-10 {
+    font-size: 0.7rem; 
+}
+
+.botonF1{
+    right:0;
+    bottom:0.5rem;
+    position:fixed;
+}
+
